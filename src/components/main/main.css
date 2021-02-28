@@ -25,6 +25,8 @@ figure {
   align-items: center;
 }
 figcaption {
+  display: flex;
+  flex-flow: column wrap;
   min-height: 50px;
   padding: 10px;
   font-size: 12px;
@@ -41,10 +43,19 @@ figcaption {
     border: none;
     margin: 0;
     max-width: 169px;
-    height: 163px;
+    height: 190px;
     padding: 0;
   }
   br {
     display: none;
+  }
+  figcaption {
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 100px;
+    font-size: 14px;
+    font-weight: 800;
+    font-stretch: extra-condensed;
+    letter-spacing: -0.5px;
   }
 }

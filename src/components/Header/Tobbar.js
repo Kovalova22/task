@@ -8,7 +8,7 @@ function Topbar() {
     <div className="topbar">
       <Container className="topbar_inner">
         <div className="topbar_left">
-          <div class="divider"></div>
+          <div className="divider"></div>
           <Row style={{ wordSpacing: "-0.7px" }}>
             {" "}
             <div className="ship">Free Shipping</div>{" "}

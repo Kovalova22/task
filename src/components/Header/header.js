@@ -49,7 +49,7 @@ function Header() {
         </Container>
       </Container>
       <div className="bottom_header">
-        <Container>
+        <Container className="b_cont">
           <ul class="breadcrumb">
             <li>
               <a href="#">Home</a>

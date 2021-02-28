@@ -61,7 +61,7 @@ function MainSection() {
               alt="dishes"
             />
             <figcaption style={{ marginTop: "4px" }}>
-              Long Product Name <br /> With Wrapping Line
+              Long Product Name With Wrapping Line
             </figcaption>{" "}
           </figure>
         </Col>
@@ -81,7 +81,7 @@ function MainSection() {
               alt="pram"
             />
             <figcaption style={{ marginTop: "4px" }}>
-              Long Product Name <br /> With Wrapping Line
+              Long Product Name With Wrapping Line
             </figcaption>{" "}
           </figure>
         </Col>
@@ -121,7 +121,7 @@ function MainSection() {
               alt="kettle"
             />
             <figcaption style={{ marginTop: "4px" }}>
-              Long Product Name <br /> With Wrapping Line
+              Long Product Name With Wrapping Line
             </figcaption>{" "}
           </figure>
         </Col>
