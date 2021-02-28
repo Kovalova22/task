@@ -57,7 +57,7 @@
   border-width: 13px 8px 0 8px;
   border-color: #82001c transparent transparent transparent;
   position: absolute;
-  top: 43px;
+  top: 35px;
   margin-left: 90px;
 }
 .search_li {
@@ -84,7 +84,7 @@
   border-width: 13px 8px 0 8px;
   border-color: #82001c transparent transparent transparent;
   position: absolute;
-  top: 43px;
+  top: 35px;
   margin-left: 75px;
 }
 .brand_li::after {
@@ -95,7 +95,7 @@
   border-width: 13px 8px 0 8px;
   border-color: #82001c transparent transparent transparent;
   position: absolute;
-  top: 43px;
+  top: 35px;
   margin-left: 63px;
 }
 ul.breadcrumb {
@@ -159,7 +159,6 @@ ul.breadcrumb li a:hover {
   .bottom_li {
     font-size: 14px;
     letter-spacing: -1px;
-    margin-top: 3px;
     font-stretch: extra-condensed;
   }
   .part_li {
@@ -172,14 +171,14 @@ ul.breadcrumb li a:hover {
   .part_li::after {
     border-width: 9px 5px 0 5px;
     border-color: #ffffff transparent transparent transparent;
-    top: 25px;
-    margin-left: 63px;
+    top: 22px;
+    margin-left: 75px;
   }
   .brand_li::after {
     border-width: 9px 5px 0 5px;
     border-color: #ffffff transparent transparent transparent;
-    top: 25px;
-    margin-left: 43px;
+    top: 22px;
+    margin-left: 52px;
   }
   .search_li::after {
     content: url("./search.svg");
@@ -187,8 +186,8 @@ ul.breadcrumb li a:hover {
     color: transparent;
     border: transparent;
     position: absolute;
-    top: 35px;
-    margin-left: 50px;
+    top: 30px;
+    margin-left: 60px;
   }
   aside,
   h1 {
