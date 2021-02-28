@@ -115,7 +115,7 @@ ul.breadcrumb li {
   margin-top: 1px;
   word-spacing: -3px;
 }
-ul.breadcrumb li + li:before {
+.after:after {
   color: #464646;
   padding: 7px;
   content: "\002F";

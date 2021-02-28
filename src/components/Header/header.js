@@ -51,13 +51,13 @@ function Header() {
       <div className="bottom_header">
         <Container className="b_cont">
           <ul class="breadcrumb">
-            <li>
+            <li className="after">
               <a href="#">Home</a>
             </li>
-            <li>
+            <li className="after">
               <a href="#">Parent Category</a>
             </li>
-            <li>
+            <li className="after">
               <a href="#">Child Category</a>
             </li>
             <li>Spare Parts</li>

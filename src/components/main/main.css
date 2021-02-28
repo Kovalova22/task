@@ -29,12 +29,13 @@ figcaption {
   flex-flow: column wrap;
   min-height: 50px;
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   align-self: flex-start;
   margin-top: 16px;
   margin-left: -3px;
 }
+
 @media screen and (max-width: 1024px) {
   .main_products {
     margin: 0;
@@ -50,12 +51,29 @@ figcaption {
     display: none;
   }
   figcaption {
-    display: flex;
-    flex-flow: column wrap;
+    font-size: 13px;
+    padding: 0;
     min-height: 100px;
-    font-size: 14px;
-    font-weight: 800;
     font-stretch: extra-condensed;
     letter-spacing: -0.5px;
   }
+}
+button {
+  display: none;
+}
+img:hover + button, button:hover {
+  display: inline;
+  position: absolute;
+  top: 75px;
+  width: 115px;
+  height: 40px;
+  border-radius: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  font-weight: 800;
+  background-color: #ffffff;
+  color: #82001c;
+  border: solid #82001c 2px;
 }
