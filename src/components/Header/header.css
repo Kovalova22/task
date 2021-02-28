@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-around;
+  height: 78px;
+}
+
+.logo {
+  background-color: #82001c;
+  padding: 3px;
+  margin-top: 14px;
+  margin-left: 63px;
+  margin-right: 108px;
+  width: 160px;
+  height: 51px;
+  border-radius: 3px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+.inner_li a {
+  color: #82001c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+.inner_li {
+  color: #82001c !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none !important;
+  max-width: 145px !important;
+  margin-right: 15px !important;
+}
+.top_li {
+  font-weight: 300;
+  font-size: xx-small;
+  letter-spacing: 0.5px;
+  margin-bottom: -7px;
+}
+.bottom_li {
+  font-stretch: condensed;
+  letter-spacing: -1px;
+}
+.part_li::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13px 8px 0 8px;
+  border-color: #82001c transparent transparent transparent;
+  position: absolute;
+  top: 43px;
+  margin-left: 90px;
+}
+.search_li {
+  margin-left: 20px !important;
+}
+.number {
+  margin-bottom: -30px !important;
+}
+.number_li {
+  margin-left: 115px !important;
+}
+.tel {
+  margin-top: -11px;
+  margin-left: -22px;
+  font-weight: 600;
+  font-stretch: normal;
+  word-spacing: 0.8px;
+}
+.search_li::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13px 8px 0 8px;
+  border-color: #82001c transparent transparent transparent;
+  position: absolute;
+  top: 43px;
+  margin-left: 75px;
+}
+.brand_li::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 13px 8px 0 8px;
+  border-color: #82001c transparent transparent transparent;
+  position: absolute;
+  top: 43px;
+  margin-left: 63px;
+}
+ul.breadcrumb {
+  padding: 8px 15px;
+  margin-left: 50px;
+  list-style: none;
+  background-color: #ffdd00;
+  height: 32px;
+}
+ul.breadcrumb li {
+  display: inline;
+  color: #464646;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  margin-top: 1px;
+  word-spacing: -3px;
+}
+ul.breadcrumb li + li:before {
+  color: #464646;
+  padding: 7px;
+  content: "\002F";
+}
+ul.breadcrumb li a {
+  color: #464646;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #464646;
+  opacity: 0.7;
+}
+.bottom_header {
+  background-color: #ffdd00;
+  border-top: solid #c2c2c2 1px;
+}
+@media screen and (max-width: 1024px) {
+  .header_inner {
+    background-color: #b20127;
+    max-width: 100%;
+    height: 53px;
+  }
+  .inner_li a {
+    color: #ffffff;
+  }
+  .bottom_header {
+    height: 42px;
+  }
+  section {
+    display: none;
+  }
+  .number_li {
+    display: none;
+  }
+  .inner_li a {
+    margin-top: 11px;
+  }
+  .top_li {
+    font-size: 8px;
+  }
+  .bottom_li {
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-top: 3px;
+    font-stretch: extra-condensed;
+  }
+  .part_li {
+    margin-left: 20px !important;
+  }
+  .search_li {
+    margin-top: -18px !important;
+    font-stretch: extra-condensed;
+  }
+  .part_li::after {
+    border-width: 9px 5px 0 5px;
+    border-color: #ffffff transparent transparent transparent;
+    top: 25px;
+    margin-left: 63px;
+  }
+  .brand_li::after {
+    border-width: 9px 5px 0 5px;
+    border-color: #ffffff transparent transparent transparent;
+    top: 25px;
+    margin-left: 43px;
+  }
+  .search_li::after {
+    content: url("./search.svg");
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+    position: absolute;
+    top: 35px;
+    margin-left: 50px;
+  }
+  aside,
+  h1 {
+    display: none;
+  }
+  ul.breadcrumb {
+    padding: 4px 5px;
+    margin-left: 0;
+  }
+  ul.breadcrumb li {
+    padding: 0;
+    letter-spacing: 0.2px;
+    height: 32px;
+    font-size: 8px;
+    height: 12px;
+    word-spacing: normal;
+  }
+  .resp_row {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -20px;
+    margin-left: -25px;
+  }
+}

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.aside_section {
+  margin-top: 10px;
+  margin-left: 45px;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+.list-group {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 23px;
+  width: 160px;
+}
+.list-group-item {
+  padding: 5px;
+  padding: 4px 0;
+  margin-left: 5px;
+  letter-spacing: 0.3px;
+}
+.list-group-item:hover {
+  cursor: pointer;
+  font-weight: 700;
+  color: #464646;
+}
+.list-group-item:hover:after {
+  content: "";
+  cursor: pointer;
+  font-weight: 700;
+  border: solid #464646;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 50px;
+}
+.side {
+  border: none;
+}

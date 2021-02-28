@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+h1 {
+  color: #464646;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 60px;
+  font-stretch: ultra-condensed;
+  letter-spacing: -3px;
+  word-spacing: 0px;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+}
