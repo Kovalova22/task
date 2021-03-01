@@ -167,7 +167,7 @@ ul.breadcrumb li a:hover {
     margin-left: -8px !important;
   }
   .search_li {
-    margin-top: -18px !important;
+    margin-top: 10px !important;
     font-stretch: extra-condensed;
   }
   .part_li::after {
@@ -188,7 +188,7 @@ ul.breadcrumb li a:hover {
     color: transparent;
     border: transparent;
     position: absolute;
-    top: 60px;
+    top: 35px;
     margin-left: 105px;
   }
   aside,
