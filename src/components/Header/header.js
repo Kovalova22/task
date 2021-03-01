@@ -29,7 +29,7 @@ function Header() {
               </a>
             </Col>
             <Col className="inner_li after_li search_li">
-              <a href="#" style={{ marginTop: "30px" }}>
+              <a href="#" style={{ marginTop: "55px" }}>
                 <span className="bottom_li"> search</span>
               </a>{" "}
             </Col>

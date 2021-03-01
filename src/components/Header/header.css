@@ -136,7 +136,7 @@ ul.breadcrumb li a:hover {
   .header_inner {
     background-color: #b20127;
     max-width: 100%;
-    height: 53px;
+    height: 105px;
   }
   .inner_li a {
     color: #ffffff;
@@ -151,34 +151,36 @@ ul.breadcrumb li a:hover {
     display: none;
   }
   .inner_li a {
-    margin-top: 11px;
+    margin-top: 20px;
   }
   .top_li {
-    font-size: 8px;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
   .bottom_li {
-    font-size: 14px;
-    letter-spacing: -1px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -5px;
     font-stretch: extra-condensed;
   }
   .part_li {
-    margin-left: 20px !important;
+    margin-left: -8px !important;
   }
   .search_li {
     margin-top: -18px !important;
     font-stretch: extra-condensed;
   }
   .part_li::after {
-    border-width: 9px 5px 0 5px;
+    border-width: 18px 10px 0 10px;
     border-color: #ffffff transparent transparent transparent;
-    top: 22px;
-    margin-left: 75px;
+    top: 50px;
+    margin-left: 130px;
   }
   .brand_li::after {
-    border-width: 9px 5px 0 5px;
+    border-width: 18px 10px 0 10px;
     border-color: #ffffff transparent transparent transparent;
-    top: 22px;
-    margin-left: 52px;
+    top: 50px;
+    margin-left: 90px;
   }
   .search_li::after {
     content: url("./search.svg");
@@ -186,30 +188,29 @@ ul.breadcrumb li a:hover {
     color: transparent;
     border: transparent;
     position: absolute;
-    top: 30px;
-    margin-left: 60px;
+    top: 60px;
+    margin-left: 105px;
   }
   aside,
   h1 {
     display: none;
   }
+  .bottom_header {
+    height: 82px;
+  }
   ul.breadcrumb {
-    padding: 4px 5px;
-    margin-left: 0;
+    margin-left: -35px;
   }
   ul.breadcrumb li {
     padding: 0;
-    letter-spacing: 0.2px;
-    height: 32px;
-    font-size: 9px;
-    height: 12px;
+    font-size: 18px;
     word-spacing: normal;
   }
   .resp_row {
     display: flex;
     justify-content: space-between;
-    margin-right: -20px;
-    margin-left: -25px;
+    margin-right: -50px;
+    margin-left: -35px;
   }
   .b_cont {
     padding: 0;
